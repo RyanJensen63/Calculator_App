@@ -7,7 +7,7 @@ public class AdvanceCalc {
 	}
 	
 	public void sqrt() {
-		
+	
 	}
 }
 
