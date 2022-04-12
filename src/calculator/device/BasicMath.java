@@ -63,6 +63,7 @@ public interface BasicMath{
 			System.out.println("Enter 2 For No");
 			System.out.println("==============================================================================");
 			ex=sc.nextInt();
+			
 		} while(ex==1);
 	}
 }
