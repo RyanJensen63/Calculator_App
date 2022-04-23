@@ -11,19 +11,19 @@ public class AdvanceCalc implements advanceMath {
 	public AdvanceCalc(String problem){
 		this.problem = problem;
 	}
-	 // squareRoot method inherited from advanceMath interface
+	// squareRoot method inherited from advanceMath interface
 	public String squareRoot(){
 		String result ="";
 		result = ""+Math.sqrt(square_root_value);        
 		return result;
 	}
-	  // powerOf method inherited from advanceMath interface
+	// powerOf method inherited from advanceMath interface
 	public String powerOf(){
 		String result ="";
 		result = ""+Math.pow(base_number, exponet_number);
 		return result;
 	}
-	 // solve method houses the logical solution to know what kind of solution is required of the advanced class
+	// solve method houses the logical solution to know what kind of solution is required of the advanced class
 	public String solve(){
 		try{
 
